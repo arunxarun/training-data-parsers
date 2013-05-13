@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/ActivityExtension/v2 http://www.garmin.com/xmlschemas/ActivityExtensionv2.xsd http://www.garmin.com/xmlschemas/FatCalories/v1 http://www.garmin.com/xmlschemas/fatcalorieextensionv1.xsd http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+
+  <Folders/>
+
+  <Activities>
+    <Activity Sport="Running">
+      <Id>2013-02-12T14:32:00Z</Id>
+      <Lap StartTime="2013-02-12T14:32:00Z">
+        <TotalTimeSeconds>1526.6000000</TotalTimeSeconds>
+        <DistanceMeters>4203.9550781</DistanceMeters>
+        <MaximumSpeed>3.4445834</MaximumSpeed>
+        <Calories>557</Calories>
+        <AverageHeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+          <Value>134</Value>
+        </AverageHeartRateBpm>
+        <MaximumHeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+          <Value>169</Value>
+        </MaximumHeartRateBpm>
+        <Intensity>Resting</Intensity>
+        <TriggerMethod>Manual</TriggerMethod>
+        <Track>
+          <Trackpoint>
+            <Time>2013-02-12T14:32:00Z</Time>
+            <Position>
+              <LatitudeDegrees>47.5860330</LatitudeDegrees>
+              <LongitudeDegrees>-122.2452834</LongitudeDegrees>
+            </Position>
+            <AltitudeMeters>70.3134766</AltitudeMeters>
+            <DistanceMeters>0.0000000</DistanceMeters>
+            <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+              <Value>43</Value>
+            </HeartRateBpm>
+            <SensorState>Absent</SensorState>
+          </Trackpoint>
+         </Track>
+        <Extensions>
+          <FatCalories xmlns="http://www.garmin.com/xmlschemas/FatCalories/v1">
+            <Value>0</Value>
+          </FatCalories>
+          <LX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+            <AvgSpeed>1.4236997</AvgSpeed>
+          </LX>
+        </Extensions>
+      </Lap>
+      <Training VirtualPartner="false">
+        <Plan IntervalWorkout="false" Type="Workout">
+          <Name>HillClimbers</Name>
+        </Plan>
+      </Training>
+      <Creator xsi:type="Device_t">
+        <Name>Forerunner305</Name>
+        <UnitId>3322440126</UnitId>
+        <ProductID>484</ProductID>
+        <Version>
+          <VersionMajor>2</VersionMajor>
+          <VersionMinor>40</VersionMinor>
+          <BuildMajor>0</BuildMajor>
+          <BuildMinor>0</BuildMinor>
+        </Version>
+      </Creator>
+    </Activity>
+  </Activities>
+
+  <Workouts/>
+
+  <Courses/>
+
+  <Author xsi:type="Application_t">
+    <Name>Garmin Training Center</Name>
+    <Build>
+      <Version>
+        <VersionMajor>3</VersionMajor>
+        <VersionMinor>2</VersionMinor>
+        <BuildMajor>1</BuildMajor>
+        <BuildMinor>0</BuildMinor>
+      </Version>
+      <Type>Release</Type>
+      <Time>Nov 9 2011, 10:09:03</Time>
+      <Builder>sqa</Builder>
+    </Build>
+    <LangID>en</LangID>
+    <PartNumber>006-A0183-00</PartNumber>
+  </Author>
+
+</TrainingCenterDatabase>
